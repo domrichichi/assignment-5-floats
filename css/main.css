@@ -1,0 +1,29 @@
+h1 {
+	background-color: #cd5b34;
+	color: white;
+	font-family: 'Merriweather', serif;
+	padding:0.2em 1em 0em 4em;
+}
+
+header {
+	background-color: #cd5b34;
+	color: white;
+}
+
+nav ol {
+	list-style-type: none;
+}
+
+h2 {
+	background-color: #cd5b34;
+	color: white;
+}
+
+h3 {
+
+}
+
+div {
+	background-color: #cd5b34;
+}
+
