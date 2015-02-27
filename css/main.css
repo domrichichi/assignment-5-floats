@@ -2,16 +2,40 @@ h1 {
 	background-color: #cd5b34;
 	color: white;
 	font-family: 'Merriweather', serif;
-	padding:0.2em 1em 0em 4em;
+	padding: 0.5em 0.5em;
+	text-align: center;
 }
 
 header {
 	background-color: #cd5b34;
 	color: white;
+	text-align: center;
 }
 
 nav ol {
 	list-style-type: none;
+	text-align: center;
+}
+
+ol li {
+	color: white;
+	text-decoration: none;
+	border: 1px solid #a93f35;
+	padding: 0.5em;
+	float: center;
+}
+
+ol li:hover {
+	background-color:#a93f35;;
+}
+
+ol a{
+	color: white;
+	text-decoration: none;
+}
+
+a: hover {
+	color: #a93f35;
 }
 
 h2 {
