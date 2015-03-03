@@ -13,20 +13,41 @@ header {
 	margin: 0;
 }
 
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+}
+
+
+
 .image-grains {
 	float: left;
 	width: 40%;
-	margin-right: 15px;
+	margin-right: 0.5em;
 }
 
 .image-cereal {
 	float: right;
 	width: 40%;
+	margin-left: 0.5em;
 }
 
 .image-quinoa {
 	float: right;
 	width: 40%;
+	clear: right;
+	margin-top: 1em;
+	margin-left: 0.5em;
+}
+
+.right{
+width: 10%;
+float:right;
+}
+
+.left{
+width: 10%;
+float:left;
 }
 
 figcaption {
@@ -47,12 +68,42 @@ ol a {
 	text-decoration: none;
 }
 
+.image-corn {
+
+}
+
+.image-rice {
+
+}
+
+.image-oats {
+
+}
+
 nav li{
-	width:25%;
+	width:20%;
 	border: 2px solid #a93f35;
 	padding: 0.6em 1em;
 	float:left;
 	display: block;
+}
+
+.image-peanuts {
+width: 30%;
+float:left;
+clear:left;
+}
+
+.image-beans {
+width: 30%;
+float:left;
+clear:left;
+}
+
+.image-lentils {
+width: 30%;
+float:left;
+clear:left;
 }
 
 ol li:hover {
@@ -68,15 +119,42 @@ a: hover {
 	color: #a93f35;
 }
 
+.famous {
+	text-align: center;
+	padding-top: 0.75em;
+}
+
+dd {
+	font-style: italic;
+	font-weight: bold;
+	float: left;
+	clear:left;
+}
+
+dt {
+	font-style: italic;
+	font-weight: bold;
+	float: left;
+	clear: left;
+}
+
 h2 {
 	background-color: #cd5b34;
 	color: white;
 }
 
 h3 {
-
+	text-align: center;
 }
 
 div {
 	background-color: #cd5b34;
+}
+
+footer {
+	background-color:#cd5b34;
+	text-align: center;
+	padding: 1em;
+	font-family: ;
+	clear: both;
 }
