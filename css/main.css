@@ -10,23 +10,53 @@ header {
 	background-color: #cd5b34;
 	color: white;
 	text-align: center;
+	margin: 0;
+}
+
+.image-grains {
+	float: left;
+	width: 40%;
+	margin-right: 15px;
+}
+
+.image-cereal {
+	float: right;
+	width: 40%;
+}
+
+.image-quinoa {
+	float: right;
+	width: 40%;
+}
+
+figcaption {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	color: white;
 }
 
 nav ol {
 	list-style-type: none;
 	text-align: center;
+	overflow: hidden;
+	padding: 0;
 }
 
-ol li {
-	color: white;
+ol a {
+	color:white;
 	text-decoration: none;
-	border: 1px solid #a93f35;
-	padding: 0.5em;
-	float: center;
+}
+
+nav li{
+	width:25%;
+	border: 2px solid #a93f35;
+	padding: 0.6em 1em;
+	float:left;
+	display: block;
 }
 
 ol li:hover {
-	background-color:#a93f35;;
+	background-color:#a93f35;
 }
 
 ol a{
@@ -50,4 +80,3 @@ h3 {
 div {
 	background-color: #cd5b34;
 }
-
