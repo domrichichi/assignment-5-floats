@@ -22,6 +22,10 @@ header {
 	margin: 0;
 }
 
+img {
+	width: 100%;
+}
+
 body {
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
@@ -74,6 +78,7 @@ figcaption {
 	font-family: 'Merriweather', serif;
 	font-style: italic;
 	color: white;
+	text-align: center;
 }
 
 nav ol {
@@ -103,19 +108,23 @@ width: 100%;
 }
 
 .rice {
-width: 50%;
 }
 
 .rice1 {
 float: left;
+margin: 0;
+display: inline-block;
+clear: left;
+width: 50%;
 }
 
 .oats {
-	width: 40%;
 }
 
 .oats1 {
-float: left;
+float: right;
+margin: 0;
+width: 50%;
 }
 
 .figcorn {
@@ -198,6 +207,7 @@ h3 {
 div {
 	background-color: #cd5b34;
 	clear:both;
+	overflow: hidden;
 }
 
 footer {
@@ -225,3 +235,6 @@ li {
 aside {
 	float: right;
 }
+
+ol li {
+width:33.333%;
