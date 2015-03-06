@@ -172,7 +172,7 @@ ol a{
 	text-decoration: none;
 }
 
-a: hover {
+a:hover {
 	color: #a93f35;
 }
 
@@ -196,8 +196,9 @@ dt {
 }
 
 h2 {
-	background-color: #cd5b34;
+	background-color: #dc8252;
 	color: white;
+	padding-top: 0;
 }
 
 h3 {
@@ -205,7 +206,7 @@ h3 {
 }
 
 div {
-	background-color: #cd5b34;
+	background-color: #dc8252;
 	clear:both;
 	overflow: hidden;
 }
@@ -214,7 +215,7 @@ footer {
 	background-color:#cd5b34;
 	text-align: center;
 	padding: 2em;
-	font-family: ;
+	font-family:'Merriweather', serif;
 	clear: both;
 	color: #dda999;
 }
@@ -238,3 +239,4 @@ aside {
 
 ol li {
 width:33.333%;
+}
